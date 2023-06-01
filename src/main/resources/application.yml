@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/security?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+
+  cache:
+    type: caffeine # \u5168\u5C40\u914D\u7F6E\u4E2D\u6307\u5B9A\u4F7F\u7528caffeine\u7F13\u5B58\u7BA1\u7406
